@@ -4,16 +4,15 @@ import (
 	"fmt"
 )
 
-func  main()  {
+func main() {
 
 	ejercicio1()
 	ejercicio2()
-	ejercicio3()
-	ejercicio4()
+	//ejercicio3()
+	//ejercicio4()
 
-	
 }
-func ejercicio1(){
+func ejercicio1() {
 	var nombre string = "Geral"
 	fmt.Println(nombre)
 
@@ -22,18 +21,18 @@ func ejercicio1(){
 
 }
 
-func ejercicio2(){
+func ejercicio2() {
 	var temperatura float32 = 21.0
-	fmt.Println("temperatura de tulua:" , temperatura )
+	fmt.Println("temperatura de tulua:", temperatura)
 
 	var humedad float32 = 0.88
-	fmt.Println("Humedad de tulua:" , humedad )
+	fmt.Println("Humedad de tulua:", humedad)
 
 	var presion float32 = 1022.0
-	fmt.Println("presion de tulua:" , presion)
+	fmt.Println("presion de tulua:", presion)
 }
 
-func ejercicio3(){
+/*func ejercicio3(){
 
 	//var 1nombre string    				//inicia con numero
 	var apellido string 					//Correcta
@@ -47,11 +46,11 @@ func ejercicio3(){
 
 func ejercicio4(){
 
-	
+
 	var apellido string = "gomez"			//Correcta
 	var edad int = 35
 	//var edad int = "35"						//no coincide tipo con valor asignado =>
-	
+
 	boolean := false
 	//boolean := "false";
 
@@ -60,4 +59,4 @@ func ejercicio4(){
 	//var sueldo string = 45847.90
 
 	var nombre string = "Julian"
-}
+}*/
